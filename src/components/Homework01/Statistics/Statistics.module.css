@@ -1,0 +1,38 @@
+.statisticsList{
+	list-style: none;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0;
+	margin: 0;
+	
+
+}
+.statisticsWrapper{
+	text-align: center;
+	margin: 0 auto;
+	background-color: white;
+	width: 50vw;
+	box-shadow: 2px 2px lightslategray;
+}
+
+.item{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 15px;
+	gap: 5px;
+	width: 100%;
+	border-right: 1px solid black;
+}
+.item:last-child{
+	border: 0;
+}
+
+.title{
+	padding: 10px;
+	margin: 0;
+	text-transform: uppercase;
+	opacity: .6;
+}

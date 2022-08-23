@@ -1,0 +1,38 @@
+.offline{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: red;
+}
+.online{
+	display: inline-block;
+	background-color: green;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+}
+
+.friendsList{
+text-align: center;
+padding: 0;
+margin: 20px auto;
+border: 1px solid black;
+width: 50vw;
+}
+.item{
+	padding: 5px;
+	list-style: none;
+	background-color: white;
+	display: flex;
+	justify-content: flex-start;
+	border: 1px solid gray;
+	/*margin: 0 auto;*/
+	/*width: 45vw;*/
+	align-items: center;
+	
+	gap: 10px;
+}
+.avatar{
+	border-radius: 10px;
+}

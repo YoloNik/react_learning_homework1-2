@@ -1,0 +1,12 @@
+.contactList{
+	padding: 0;
+}
+.contactItem{
+	display: flex;
+} 
+.button{
+	margin: 10px;
+	background-color: lightcoral;
+	border-radius: 5px;
+	border: 1px solid gray;
+}

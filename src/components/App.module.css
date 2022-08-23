@@ -1,0 +1,9 @@
+.layer{
+	position: relative;
+	font-family: Roboto, sans-serif;
+	height: 100vh;
+	font-size: 20;
+	color: #010101;
+	text-align: center;
+	
+}

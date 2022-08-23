@@ -1,0 +1,25 @@
+.titleWrapper{
+	position: relative;
+	top: 0;
+	z-index: 99;
+}
+.title{
+	margin: 0;
+	padding: 20px 0;
+
+	background-color: gray;
+}
+
+.closeBtn{
+	position: absolute;
+	border: none;
+	background-color: transparent;
+	padding: 5px;
+	cursor: pointer;
+	top:20px;
+	right: 20px;
+
+}
+.contentWrapper{
+	padding: 20px;
+}
